@@ -6,21 +6,19 @@
 </head>
 <body style = "text-align:center">
 <h1>Order pizza!</h1>
-<form method="post" action="www.https://www.dominos.mk/">
-    <input type = "hidden" name = "redirect" value = "https://www.dominos.mk/">
+<form method="post" action="https://www.bravosclub.com/">
+    
+    <input type = "hidden" name = "redirect" value = "https://www.bravosclub.com/">
     <p>
         <label><strong>Select the pizza size:</strong></label><br>
-        <label>Jumbo
-            <input name="pizza_size" type="radio" value="Jumbo"></label><br>
         <label>Large
             <input name="pizza_size" type="radio" value="Large"></label><br>
         <label>Medium
             <input name="pizza_size" type="radio" value="Medium"checked></label><br>
         <label>Small
             <input name="pizza_size" type="radio" value="Small"></label><br>
-        <label>Mini
-            <input name="pizza_size" type="radio" value="Mini"></label><br>
     </p>
+    
     <p>
         <label><strong>Select the crust type:</strong></label><br>
         <select name="crust_type">
@@ -31,10 +29,9 @@
             <option>New York Style</option>
             <option selected>Deep Dish</option>
             <option>Sicilian</option>
-            <option>Stuffed</option>
-            <option>Gluten Free</option>
         </select>
     </p>
+    
     <p>
         <label><strong>Select the filler:</strong></label><br>
         <label>Tomato Sauce
@@ -57,17 +54,8 @@
             <input name="toppings" type="checkbox" value="Mushrooms"></label><br>
         <label>Pepper
             <input name="toppings" type="checkbox" value="Pepper"></label><br>
-        <label>Cherry Tomato
-            <input name="toppings" type="checkbox" value="Cherry Tomato"></label><br>
-        <label>Onion
-            <input name="toppings" type="checkbox" value="Onion"></label><br>
-        <label>Olive
-            <input name="toppings" type="checkbox" value="Olive"></label><br>
-        <label>Basil
-            <input name="toppings" type="checkbox" value="Basil"></label><br>
-        <label>Spinach
-            <input name="toppings" type="checkbox" value="Spinach"></label><br>
     </p>
+    
     <p>
         <label><strong>Name:&nbsp;&emsp;</strong>
             <input name="name" type="text" size="20" maxlength="30" placeholder="Name:" required> 
@@ -75,15 +63,14 @@
         <label><strong>Phone:&emsp;</strong>
             <input type="tel" placeholder="+389 ## ### ###" pattern="\+389\s\d{2}\s\d{3}\s\d{3}" required> 
         </label><br>
-        <label><strong>Address:&nbsp;</strong>
-            <input name="address" type="text" size="20" maxlength="50" placeholder="Address:" required> 
-        </label><br>  
         <textarea name="message" rows="4" cols="36" placeholder="Message:"></textarea>
-    </p>    
+    </p> 
+    
     <p>
         <input type = "submit" value = "Send">
         <input type = "reset" value = "Reset">
     </p>
+    
 </form>
 </body>
 </html>
